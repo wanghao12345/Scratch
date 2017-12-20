@@ -39,6 +39,8 @@ html,body{
     padding-left: 0.3rem;
     width: 9rem;
     color: white;
+    height: 1.5rem;
+    font-size: 0.7rem;
 }
 
 
@@ -57,6 +59,7 @@ width: 7rem;
     border: 0;
     color: white;
     text-shadow: 0px 1px 8px #000;
+    font-size: 0.7rem;
 }
 .container .btn_div .login_btn{
     background: url(../../img/login/btn_login.png) no-repeat;

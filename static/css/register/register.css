@@ -36,12 +36,14 @@ html,body{
 
 }
 .container form label input{
-	border: 0;
+    border: 0;
     background-color: #ff838a;
     box-sizing: border-box;
     padding-left: 0.3rem;
     width: 8rem;
     color: white;
+    font-size: 0.7rem;
+    height: 1.5rem;
 }
 
 .container form label:nth-child(1){
@@ -63,6 +65,7 @@ html,body{
     height: 2.2rem;
     color: white;
     text-shadow: 0px 1px 8px #c30000;
+    font-size: 0.6rem;
 }
 .container form label:nth-child(2) div{
     background: url(../../img/register/ver_input.png) no-repeat;
@@ -94,6 +97,7 @@ html,body{
     bottom: -0.2rem;
     left: 50%;
     margin-left: -3.2rem;
+    font-size: 0.7rem;
 }
 
 
