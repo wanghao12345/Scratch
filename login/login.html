@@ -15,12 +15,14 @@
 	<link rel="stylesheet" type="text/css" href="../static/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../static/css/login/login.css">
 	<script type="text/javascript" src="../static/js/rem.js"></script>
+	<script type="text/javascript" src="../static/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../static/js/login/login.js"></script>
 </head>
 <body>
 	<div class="container">
 		<form action="javascript:void(0)">
-			<label>手机号:<input type="text" name="userName"></label>
-			<label style="margin-top: 0.2rem;">密&nbsp;&nbsp;码:<input type="text" name="passWord"></label>
+			<label>手机号:<input type="text" name="userName" readonly  unselectable="on" id="userName" /></label>
+			<label style="margin-top: 0.2rem;">密&nbsp;&nbsp;码:<input type="text" name="passWord"  id="passWord" /></label>
 		</form>
 		<div class="btn_div">
 			<button class="login_btn">登录并授权</button>
