@@ -31,7 +31,7 @@ function loginGet(phone,pwd,backUrl){
 	  		}else{
 	  			alert("授权失败！");
 	  			// window.location.href="http://localhost:8080/Scratch/register/register.html";
-	  			window.location.href=backUrl;
+	  			// window.location.href=backUrl;
 	  		}    
 	    }
 	}
