@@ -25,9 +25,13 @@ function loginGet(phone,pwd,backUrl){
 	  if (xmlhttp.readyState==4 && xmlhttp.status==200){
 	  		var obj = xmlhttp.responseText;
 	  		if (obj=="ok") {
+	  			// alert("授权成功！")
+	  			// window.location.href="http://localhost:8080/Scratch/register/register.html";
 	  			window.location.href=backUrl;
 	  		}else{
 	  			alert("授权失败！");
+	  			// window.location.href="http://localhost:8080/Scratch/register/register.html";
+	  			window.location.href=backUrl;
 	  		}    
 	    }
 	}

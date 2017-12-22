@@ -20,16 +20,33 @@ html,body{
     padding: 1.2rem 1rem;
 }
 .container form label{
+/*     width: 100%;
+display: block;
+height: 2.4rem;
+line-height: 2.4rem;
+background-color: blue;
+text-align: center;
+background: url(../../img/login/input.png) no-repeat;
+background-size: 100% 100%;
+color: white;
+font-size: 0.6rem; */
     width: 100%;
     display: block;
-    height: 2.4rem;
-    line-height: 2.4rem;
     background-color: blue;
     text-align: center;
-    background: url(../../img/login/input.png) no-repeat;
     background-size: 100% 100%;
     color: white;
     font-size: 0.6rem;
+
+    background: #bfbfbf;
+    border-radius: 3rem;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    border: 2px solid white;
+    box-shadow:0 0 2px #000;
+    background-color: #ff838a;
+
+
 
 }
 .container form label input{
